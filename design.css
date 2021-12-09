@@ -1,0 +1,83 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  font-family: monospace;
+  font-size: 20px;
+  font-style: normal;
+  background-color: silver;
+  width: 100%;
+}
+input{
+  height: 50px;
+}
+.box{
+  border-style:hidden;
+  margin-top: 10px;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-radius: 50px;
+  width:100%;
+
+}
+.form-group{
+  border-style:solid;
+  border-color: white;
+  width: 80%;
+  height: auto;
+
+
+}
+label{
+  display: inline-block;
+  color: black;
+  width: 80%;
+  text-align: left;
+  font-family: Helvetica;
+
+}
+.form-group>input{
+  height: 40px;
+  border-radius: 5px;
+  border-width: thin;
+  width: 200px;
+  height: auto;
+}
+
+.rectangle{
+display: flex;
+width: 50%;
+height:70%;
+margin: auto auto auto auto;
+margin-top: 100px;
+background-color: white;
+border-style: solid;
+border-radius: 10px;
+
+}
+.square{
+  width: 100%;
+  height: auto;
+  border-style: hidden;
+  display: grid;
+}
+.picture{
+  width: 100%;
+  height: auto;
+  max-height: 200%;
+  border-style: hidden;
+  display: grid;
+  background-repeat: repeat;
+background-image:url(".././pictures/drugs.webp");
+background-size:contain;
+}
+p{
+  font-family: Helvetica;
+  font-size: 24px;
+}
+button{
+  width:300px;
+  height: 150px;
+  background-color: blue;
+  color: white;
+}

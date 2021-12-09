@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+[role="button"] {
+  padding: 2px;
+  background-color: rgba(166, 158, 136);
+  color: white;
+  cursor: default;
+
+}
+[role="button"]:hover,
+[role="button"]:focus,
+[role="button"]:active {
+   background-color: white;
+   color: navy;
+}
+ul {
+    list-style: none;
+}
+.listdesign{
+  margin-top: 5px;
+  width:500px;
+}
+.listbox{
+  border-style: hidden;
+  margin-top: 10px;
+}
+.searchside{
+  border-style: flex;
+}
+#backbutton{
+  width:500px;
+}

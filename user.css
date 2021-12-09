@@ -1,0 +1,51 @@
+* {
+   box-sizing: border-box
+}
+.container{
+  display: flex;
+  font-size: 30px;
+  width: 100%;
+}
+
+body{
+  font-family: monospace;
+}
+.sidetab{
+display: block;
+*rgba(43,66,130,1);*/
+width:20%;
+height: 100%;
+border-style: 2px solid;
+}
+.buttn{
+  display: grid;
+  height: 10vh;
+}
+.beutybuttn{
+  height: 30px;
+  width: 100%;
+  background-color: rgba(43,130,105,1);
+  color: white;
+  border-radius: 10px;
+
+}
+
+.content{
+  background-color: rgba(0, 191, 255, 0.06);
+  width: 900px;
+  height: 1000px;
+}
+a{
+  text-decoration: none;
+  width: 50px;
+}
+.picturecont {
+  padding: 10px;
+}
+.picturecont > img {
+  border: 1px solid black;
+  border-radius: 10px;
+  width:100px;
+  height:100px;
+
+}
